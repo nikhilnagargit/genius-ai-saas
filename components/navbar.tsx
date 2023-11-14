@@ -1,7 +1,7 @@
 import React from "react";
 
 import { UserButton } from "@clerk/nextjs";
-import MobileSidebar from "@/components/ui/mobile-sidebar";
+import MobileSidebar from "@/components/mobile-sidebar";
 
 function Navbar() {
   return (

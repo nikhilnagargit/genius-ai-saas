@@ -15,9 +15,7 @@ function MobileSidebar() {
   return (
     <Sheet>
       <SheetTrigger>
-        <Button variant="ghost" size="icon" className="md:hidden">
-          <Menu />
-        </Button>
+        <Menu className=" hover:bg-black/20 transition" />
       </SheetTrigger>
       <SheetContent side={"left"} className="p-0">
         <Sidebar />
