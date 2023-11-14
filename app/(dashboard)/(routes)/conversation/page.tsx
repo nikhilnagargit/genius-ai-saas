@@ -40,6 +40,7 @@ function ConversationPage() {
       });
 
       setMessages((current) => [...current, userMessage, response.data]);
+      form.reset();
     } catch (error: any) {
       // TODO: open pro model
       console.log(error);
