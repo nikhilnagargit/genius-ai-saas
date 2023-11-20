@@ -35,7 +35,7 @@ const LandingHero = () => {
           <Button
             variant={"premium"}
             className="md:text-lg p-4 md:p-6 rounded-full font-semibold">
-            Let`&apos;`s Go
+            Let&apos;s Go
           </Button>
         </Link>
       </div>
