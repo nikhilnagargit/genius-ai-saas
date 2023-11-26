@@ -1,3 +1,11 @@
+
+## Youtube Video Link -  https://youtu.be/Ntorq-ue0KU
+## Live Website Link - https://ai-genie-by-nikhil.netlify.app/
+
+
+## Preview
+<img width="923" alt="image" src="https://github.com/nikhilnagargit/genius-ai-saas/assets/44896376/76eea284-f69c-4243-903c-8cf4be2a7a0e">
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
