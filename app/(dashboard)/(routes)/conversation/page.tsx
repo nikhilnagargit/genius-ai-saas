@@ -49,7 +49,7 @@ function ConversationPage() {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
-        toast.error("Something Went Wrong");
+        toast.error("Something went wrong.");
       }
       console.log(error);
     } finally {
@@ -60,7 +60,7 @@ function ConversationPage() {
     <div>
       <Heading
         title="Conversation"
-        description="Our most advanced conversation model."
+        description="Chat with AI model derived from Chat GPT 3.5 Turbo"
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
@@ -77,9 +77,10 @@ function ConversationPage() {
                   <FormItem className="col-span-12 lg:col-span-10">
                     <FormControl className="m-0 p-0">
                       <Input
+                        autoFocus
                         className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading}
-                        placeholder="How do I calculate the radius of a circle?"
+                        placeholder="Suggestion: How to hire a guy for software engineer role?"
                         {...field}></Input>
                     </FormControl>
                   </FormItem>

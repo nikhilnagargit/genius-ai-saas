@@ -2,7 +2,12 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import Sidebar from "@/components/sidebar";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { useEffect, useState } from "react";
 
 interface MobileSidebarProps {
@@ -23,10 +28,10 @@ function MobileSidebar({
   }
   return (
     <Sheet>
-      <SheetTrigger>
+      <SheetTrigger asChild>
         <Menu className=" hover:bg-black/20 transition md:hidden" />
       </SheetTrigger>
-      <SheetContent side={"left"} className="p-0">
+      <SheetContent side={"left"} className="p-0 w-2/3">
         <Sidebar isPro={isPro} apiLimitCount={apiLimitCount} />
       </SheetContent>
     </Sheet>

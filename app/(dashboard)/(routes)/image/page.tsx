@@ -68,7 +68,7 @@ function ImagePage() {
     <div>
       <Heading
         title="Image Generation"
-        description="Imagin and create the image using power of AI."
+        description="Imagine and create the image using power of AI."
         icon={MessageSquare}
         iconColor="text-pink-700"
         bgColor="bg-pink-700/10"
@@ -85,6 +85,7 @@ function ImagePage() {
                   <FormItem className="col-span-12 lg:col-span-6">
                     <FormControl className="m-0 p-0">
                       <Input
+                        autoFocus
                         className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading}
                         placeholder="Suggestion: An image of two children playing in the dark."
